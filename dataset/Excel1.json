@@ -1,0 +1,61 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Vendor",
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "SupplyQualityAnalysis.xlsx"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "Datefield",
+				"type": "String"
+			},
+			{
+				"name": "Sub_Category_ID",
+				"type": "String"
+			},
+			{
+				"name": "Plant_ID",
+				"type": "String"
+			},
+			{
+				"name": "Vendor_ID",
+				"type": "String"
+			},
+			{
+				"name": "Material_ID",
+				"type": "String"
+			},
+			{
+				"name": "Defect_Type_ID",
+				"type": "String"
+			},
+			{
+				"name": "Material_Type_ID",
+				"type": "String"
+			},
+			{
+				"name": "Defect_ID",
+				"type": "String"
+			},
+			{
+				"name": "Defect_Qty",
+				"type": "String"
+			},
+			{
+				"name": "Downtime_min",
+				"type": "String"
+			}
+		]
+	}
+}
