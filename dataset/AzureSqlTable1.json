@@ -1,0 +1,66 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Datefield",
+				"type": "date"
+			},
+			{
+				"name": "Sub_Category_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Plant_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Vendor_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Material_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Defect_Type_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Material_Type_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Defect_ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Defect_Qty",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Downtime_min",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Vendor"
+		}
+	}
+}
